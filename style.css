@@ -1,8 +1,9 @@
 body{font-family: 'Poppins', sans-serif;
 margin: 0%;}
 h1{font-size: 50px;}
+h2{font-size: 40px;}
 .orange-color{color: orange;}
-section{display: flex;
+.flex-cont{display: flex;
 margin-bottom: 100px;}
 .half-width{
     width: 50%;
@@ -28,4 +29,30 @@ padding-top: 5%;}
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box{
+    box-shadow: 10px 10px 40px yellowgreen;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#ftr{
+    text-align: center;
 }
